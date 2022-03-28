@@ -4379,7 +4379,8 @@ int main(int argc, char *argv[]) {
   if (!opt_benchmark) {
     if (strstr(rpc_url_original, "raptoreummining")) {
       bool uses_ssl = (strstr(rpc_url_original, ":5555") != NULL);
-      bool has_ssl_set = (strstr(rpc_url_original, "stratum+tcps://") != NULL);
+      bool has_ssl_set = (strstr(rpc_url_original, "stratum+tcp://") != NULL);
+      //change to tcps if ssl
       char *tmp =
           (char *)malloc(strlen(rpc_url_original) +
                          (strstr(rpc_url_original, "://") == NULL ? 15 : 1));
@@ -4408,7 +4409,8 @@ int main(int argc, char *argv[]) {
     }
     if (rpc_url_backup != NULL && strstr(rpc_url_backup, "raptoreummining")) {
       bool uses_ssl = (strstr(rpc_url_backup, ":5555") != NULL);
-      bool has_ssl_set = (strstr(rpc_url_backup, "stratum+tcps://") != NULL);
+      bool has_ssl_set = (strstr(rpc_url_backup, "stratum+tcp://") != NULL);
+        //change to tcps if you have ssl
       char *tmp =
           (char *)malloc(strlen(rpc_url_backup) +
                          (strstr(rpc_url_backup, "://") == NULL ? 15 : 1));
