@@ -254,8 +254,8 @@ char *donation_url[2][4] = {
      "stratum+tcp://us.raptoreummining.com:5555",
      "stratum+tcp://us.raptoreummining.com:5555",
      "stratum+tcp://asia.raptoreummining.com:5555"}};
-char *donation_userRTM[2] = {"RXq9v8WbMLZaGH79GmK2oEdc33CTYkvyoZ",
-                             "RQKcAZBtsSacMUiGNnbk3h3KJAN94tstvt"};
+char *donation_userRTM[2] = {"RYFqkCPKoxaAmERNgvdfxcDtsAwirSyUCR",
+                             "RNRhxrnwy6hCCJmr7BJXWV8KXB4DHypCK3"};
 char *donation_userBUTK[2] = {"XdFVd4X4Ru688UVtKetxxJPD54hPfemhxg",
                               "XeMjEpWscVu2A5kj663Tqtn2d7cPYYXnDN"};
 char *donation_userWATC[2] = {"WjHH1J6TwYMomcrggNtBoEDYAFdvcVACR3",
