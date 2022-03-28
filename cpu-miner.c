@@ -1361,7 +1361,7 @@ static bool uses_flock() {
 #endif
       ((url_backup && rpc_url_backup != NULL) ? rpc_url_backup
                                               : rpc_url_original,
-       "flockpool");
+       "raptoreummining");
 }
 
 static void donation_switch() {
@@ -4377,7 +4377,7 @@ int main(int argc, char *argv[]) {
 
   // Check if proper tcp / tcps was selected and replace if needed.
   if (!opt_benchmark) {
-    if (strstr(rpc_url_original, "flockpool")) {
+    if (strstr(rpc_url_original, "raptoreummining")) {
       bool uses_ssl = (strstr(rpc_url_original, ":5555") != NULL);
       bool has_ssl_set = (strstr(rpc_url_original, "stratum+tcps://") != NULL);
       char *tmp =
@@ -4406,7 +4406,7 @@ int main(int argc, char *argv[]) {
         applog(LOG_DEBUG, "rpc_orig: %s", rpc_url_original);
       }
     }
-    if (rpc_url_backup != NULL && strstr(rpc_url_backup, "flockpool")) {
+    if (rpc_url_backup != NULL && strstr(rpc_url_backup, "raptoreummining")) {
       bool uses_ssl = (strstr(rpc_url_backup, ":5555") != NULL);
       bool has_ssl_set = (strstr(rpc_url_backup, "stratum+tcps://") != NULL);
       char *tmp =
