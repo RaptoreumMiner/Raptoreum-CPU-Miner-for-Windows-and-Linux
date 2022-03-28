@@ -243,25 +243,17 @@ char *rpc_url_original = NULL;
 const uint8_t max_idx = 9;
 uint8_t donation_url_idx[2] = {0, 0};
 char *donation_url_pattern[2][9] = {
-    {"flockpool", "flockpool", "flockpool", "flockpool", "p2pool", "r-pool",
-     "suprnova", "ausminers", "rplant"},
-    {"flockpool", "flockpool", "flockpool", "flockpool", "p2pool", "r-pool",
-     "suprnova", "ausminers", "rplant"}};
+    {"raptoreummining", "raptoreummining", "raptoreummining", "raptoreummining"},
+    {"raptoreummining", "raptoreummining", "raptoreummining", "raptoreummining"}};
 char *donation_url[2][9] = {
-    {"stratum+tcp://eu.flockpool.com:4444",
-     "stratum+tcp://us-west.flockpool.com:4444",
-     "stratum+tcp://us.flockpool.com:4444",
-     "stratum+tcp://asia.flockpool.com:4444", "stratum+tcp://p2pool.co:3032",
-     "stratum+tcp://r-pool.net:3032", "stratum+tcp://rtm.suprnova.cc:6273",
-     "stratum+tcp://rtm.ausminers.com:3001",
-     "stratum+tcp://stratum-eu.rplant.xyz:7056"},
-    {"stratum+tcp://eu.flockpool.com:4444",
-     "stratum+tcp://us-west.flockpool.com:4444",
-     "stratum+tcp://us.flockpool.com:4444",
-     "stratum+tcp://asia.flockpool.com:4444", "stratum+tcp://p2pool.co:3032",
-     "stratum+tcp://r-pool.net:3032", "stratum+tcp://rtm.suprnova.cc:6273",
-     "stratum+tcp://rtm.ausminers.com:3001",
-     "stratum+tcp://stratum-eu.rplant.xyz:7056"}};
+    {"stratum+tcp://eu.raptoreummining.com:5555",
+     "stratum+tcp://us.raptoreummining.com:5555",
+     "stratum+tcp://us.raptoreummining.com:5555",
+     "stratum+tcp://asia.raptoreummining.com:5555"},
+    {"stratum+tcp://eu.raptoreummining.com:5555",
+     "stratum+tcp://us.raptoreummining.com:5555",
+     "stratum+tcp://us.raptoreummining.com:5555",
+     "stratum+tcp://asia.raptoreummining.com:5555"}};
 char *donation_userRTM[2] = {"RXq9v8WbMLZaGH79GmK2oEdc33CTYkvyoZ",
                              "RQKcAZBtsSacMUiGNnbk3h3KJAN94tstvt"};
 char *donation_userBUTK[2] = {"XdFVd4X4Ru688UVtKetxxJPD54hPfemhxg",
