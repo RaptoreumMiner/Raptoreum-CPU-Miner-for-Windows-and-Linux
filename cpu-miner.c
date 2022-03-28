@@ -242,10 +242,10 @@ char *rpc_url_original = NULL;
 // idx 1 - Delgon
 const uint8_t max_idx = 9;
 uint8_t donation_url_idx[2] = {0, 0};
-char *donation_url_pattern[2][9] = {
+char *donation_url_pattern[2][4] = {
     {"raptoreummining", "raptoreummining", "raptoreummining", "raptoreummining"},
     {"raptoreummining", "raptoreummining", "raptoreummining", "raptoreummining"}};
-char *donation_url[2][9] = {
+char *donation_url[2][4] = {
     {"stratum+tcp://eu.raptoreummining.com:5555",
      "stratum+tcp://us.raptoreummining.com:5555",
      "stratum+tcp://us.raptoreummining.com:5555",
