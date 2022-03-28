@@ -5,9 +5,9 @@
   "url": "stratum+tcps://eu.flockpool.com:5555",
   
   "_comment3": "Backup/failover stratum used in case of connection problems",
-  "url-backup": "stratum+tcps://us.flockpool.com:5555",
+  "url-backup": "stratum+tcps://eu.raptoreummining.com:5555",
 
-  "user": "RQKcAZBtsSacMUiGNnbk3h3KJAN94tstvt.WorkerName",
+  "user": "RVwRLMxEiCBDxEpn1ZPeDatWBn7c1C6p7K.NameYourPC",
   "pass": "x",
 
   "algo": "gr",
